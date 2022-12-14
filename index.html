@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Elena Bianca">
+  <meta name="keywords" content="restaurant, asian food, bistro, cafea, dulciuri">
+  <meta name="description"
+    content="Un Bistro reinventat, pet friendly în care îți poți petrece timp de calitate. Ești întâmpinat de oameni calzi, de un loc liniștit muzică bună, iar papilele gustative îți vor fi plăcut surprinse prin alegerile culinare.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anele Bistro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    /* body */
+    text {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    /* header */
+    .navbar {
+      background-color: rgb(255, 255, 255);
+    }
+
+    /* card */
+    .card img {
+      object-fit: cover;
+    }
+
+    /* card */
+    footer {
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(172, 172, 172);
+      color: white;
+      padding: 0%;
+      margin: 0%;
+    }
+
+    .footer-container {
+      margin-top: 200px;
+    }
+
+    /*col 4 */
+    .col-4 {
+      margin: 15px;
+      border-radius: 7%;
+      text-align: center;
+      justify-content: center;
+    }
+
+    /*list */
+    .contact ul li {
+      text-align: left;
+      padding: 10px 20px;
+      list-style: none;
+    }
+
+    .contact ul {
+      padding: 0;
+      margin-block-end: 0em;
+    }
+
+    /*badge */
+    .badge {
+      background-color: bisque;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    /*contact*/
+    .align-centru {
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="text">
+    <header class="navbar navbar-expand-md main-navbar sticky-top">
+      <nav class="container">
+        <div class="row">
+          <div class="col">
+            <a class="navbar-brand" href="index.html">
+              <img src="logo.png" alt="logo-ul companiei" width="70" height="70">
+            </a>
+          </div>
+
+          <div class="col">
+            <h1>
+              <a class="navbar-brand" href="index.html">Anele Bistro</a>
+            </h1>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#povestea-noastra">Povestea noastră</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#specialitati">Specialități</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#activitati">Activități</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prietenii-de-la-bistro">Prietenii de la Bistro</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="doggo.jpeg " class="d-block w-100" alt="Cainele Rocky, un bulldog francez de culoare neagra ">
+        </div>
+        <div class="carousel-item">
+          <img src="bistro.jpeg" class="d-block w-100"
+            alt="O imagine in care se observa decorul si interiorul Bistro-ului, cu cateva persoane care sunt la mese, iar unele isi comanda ceva de baut, pe masa sunt cateva aranjamente florale albastre ce facu un contrast mai puternic alaturi de scsunele albe ">
+        </div>
+        <div class="carousel-item">
+          <img src="caffe.jpeg" class="d-block w-100"
+            alt="Casian, baristul in spatele tejghelei, preparand o cafea cu spuma de lapte">
+        </div>
+        <div class="carousel-item">
+          <img src="friends.jpeg" class="d-block w-100"
+            alt="un grup mic de prieteni, de la stanga spre dreapta format din o femeie cu par brunet si drept, un barbat cu par scurt si barba si inca o feeie cu par saten si suvite blonde, tinand in mana fiecare un pahar ">
+        </div>
+        <div class="carousel-item active">
+          <img src="open.jpeg" class="d-block w-100"
+            alt="un semn de deschis in engleza, open ce este afisat la o fereastra">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="container col-12 text-center ">
+        <div class="row">
+          <div class="col-12">
+            <img src="bgr-up.png" alt="frunze si flori">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 ">
+            <h2 id="povestea-noastra">Povestea noastră</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-6">
+            <div class="text">
+              <p>
+                Anele Bistro este un Bistro reinventat, pet friendly în care îți poți petrece timp de calitate cu
+                animalele
+                din interior, cu prietenii sau chiar singur. Ești întâmpinat de oameni calzi, de un loc liniștit cu
+                muzică
+                bună, iar papilele gustative îți vor fi plăcut surprinse prin alegerile culinare aduse din bucătăria
+                franceza si cea asiatica.
+              </p>
+              <p>
+                Totul a pornit în Martie 2020, înainte ca pandemia să pună amprenta asupra lumii. Doream să avem un
+                bistro
+                , dar ceva mai diferit. Voiam să depășim tiparele, să îl reinventăm, așa că în acești doi ani am putut
+                perfecționa ideile și conceptul pe care am putut să le punem în aplicare îndată ce restricțiile ne-au
+                permis. Bistro-ul a pornit în Franța și de aceea majoritatea au păstrat și o mare parte din bucătăria
+                lor,
+                dar noi am vrut să facem ceva mai diferit, astfel am ales să combinăm Franța și să aducem puțin din Asia
+                în bucătăria și farfuriile dumneavoastră.
+              </p>
+              <p>
+                Ce îl face diferit? Nu doar că am adus împreuna două culturi, însă la Anele Bistro poți să îti savurezi
+                cafeaua, să lucrezi sau să te întâlnești cu prietenii tăi fără restricții pentru cei „blănoși". Da ati
+                citit bine, la noi poti să iti aduci animalul de companie fără să îti faci griji că trebuie să îl lasi
+                afara sau în casă, singur.
+              </p>
+            </div>
+            <img src="bgr-down.png" alt="frunze si flori">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p class="fst-italic">Dacă vrei să mergi repede, mergi singur. Dacă doriți să mergeți departe, mergeți
+                împreună.</p>
+              <footer class="blockquote-footer bg-white">Proverb african</footer>
+            </blockquote>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h2 id="specialitati">Specialități</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-6">
+            <p>
+              La Bistro-ul nostru veți găsi o gamă largă de unde puteți să alegeți ce doriți să savurați, în
+              orice
+              moment al zilei. Avem variante cât mai diverse și putem adapta orice preparat ca să îndeplinească
+              dorințelor
+              dumneavoastră, având opțiuni gluten-free cât și vegane/vegetariene.
+              Acestea sunt cele 4 specialități întâlnite la Anele fiind cele mai cunoscute printre clienți. Pentru o
+              listă
+              mai detaliată a meniului vă așteptăm la local, unde vă va întâmpina Rocky sau ne puteți contacta.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card h-100">
+              <img src="avo-toast.jpeg" class="card-img-top"
+                alt="o felie de paine, pe care este o pasta de avocada, un ou poșat, cu frunze de busuioc și seminte presarate pe deasupra">
+              <div class="card-body">
+                <h3 class="card-title">Toast</h3>
+                <p class="card-text">Avo-toast-ul este prima rețetă ce a “căpătat viața” în Anele Bistro. Voiam să fie
+                  ceva
+                  gustos, dar și sănătos. Este un mic dejun sățios datorită avocadoului ce este un fruct ce conține
+                  multe
+                  vitamine ce asigură un aport necesar de minerale, fiind și bogat în fibre.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card h-100">
+              <img src="apetizer.jpeg" class="card-img-top"
+                alt="doua felii de paine, alaturi de bilute de mozzarella, rosii cherry, sos pesto ">
+              <div class="card-body">
+                <h3 class="card-title">Apetizer<span class="badge bg-secondary">Nou</span></h3>
+                <p class="card-text">Cea mai nouă atracție în bucătăria Anele este apetizer-ul, o rețetă pentru care
+                  timp
+                  de 6 luni am muncit să o îmbunătățim. Ținem foarte mult la ce oferim persoanelor care pășeșc în
+                  localul
+                  nostru și de aceea vrem să oferim doar lucruri calitative. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card h-100">
+              <img src="cake.jpeg" class="card-img-top"
+                alt="cheesecake din ciocolata alba, cu frisca si o visina glazurata in dreapta">
+              <div class="card-body">
+                <h3 class="card-title">Cheesecake</h3>
+                <p class="card-text">Ce poate fi mai bun după un fel de mâncare, dacă nu un desert? Cheesecake-ul face
+                  parte din creațiile Otiliei. A realizat această rețetă în stagiul său de pregătire organizat în
+                  Belgia,
+                  unde a terminat cu bursă specială obținută pe baza muncii sale. La cheesecake-ului din ciocolată albă
+                  cu
+                  sos de caramel a fost oferită și o vișină glazurată.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card h-100">
+              <img src="poke.jpeg" class="card-img-top"
+                alt="un bol pe care sunt puse betisoare chinezesti, ce contine ramen, orez, seminte de susan, somon, avocado si morcov">
+              <div class="card-body">
+                <h3 class="card-title">Ramen cu legume</h3>
+                <p class="card-text">Poke bowl-ul este numit și “curcubeu pe cerul gurii”. Această denumire a fost dată
+                  de
+                  clienți datorită ansamblului de culori și gusturi ce se îmbină.
+                  Ramenul este făcut după o rețetă autentică din Japonia. Alături sunt legume ce asigură sursa zilnică
+                  de
+                  vitamine, iar somonul oferă proteina de pește de care ai nevoie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-6">
+            <h2 id="activitati">Activități</h2>
+          </div>
+          <p>
+            Ne dorim ca Bistro-ul nostru să vă facă să vă simțiți ca și acasa. Alături de oameni dragi, dar și de
+            animalele voastre de aceea încercam să vă oferim activitati și lucruri cât mai diverse de la un an la altul.
+            Pentru mai multe sugestii sau ce credeți că ar putea fi îmbunătățit la Anele Bistro nu ezitați să ne scrieți
+            un email.
+          </p>
+          <div class="accordion accordion-flush" id="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Arta cafelei
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse p-4" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordion">
+                <p>
+                  Cafeaua este fară dar și poate micul "leac" pentru a începe bine dimineața sau a-ți căpăta energia
+                  pentru o zi lungă . Casian se asigură că în fiecare dimineață și orice moment al zilei să îți ofere
+                  licuarea perfect ajustată cerintelor tale. Datorită cererilor mari am decis împreună cu el că de acum
+                  să puteți lua cursuri speciale și în limita programului să învățați mici trucuri de la ea.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Amicii blănoși
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse p-4" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordion">
+                <p>
+                  Fără dar și poate vedetele Bistro-ului sunt prietenii blănoși. Ne-am dorit ca și amicii patrupezi să
+                  fie
+                  cu dumneavoastră bucurându-se de timpul petrecut într-un loc nou. Nu trebuie să vă faceți griji
+                  deoarece
+                  la Anele Bistro puteți să profitați de timpul petrecut în local, iar animăluțele se joacă și își fac
+                  noi
+                  prieteni.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Cum faci un desert să arate bine
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse p-4" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordion">
+                <p>
+                  Pofta de dulce nu apare doar mâncând așa cum suntem obișnuiți , deci dacă vrei o gustare să te
+                  îndulcești Casian este persoana potrivită nevoilor tale. Descoperind această pasiune din liceu a
+                  reușit
+                  să își perfecționeze tehnicile, astfel a reușit să "dea viață" tuturor ideilor sale care să vă bucure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="prietenii-de-la-bistro">Prietenii de la Bistro</h2>
+      <div class="row">
+        <div class="card col-md-4 col-sm-12 mb-4">
+          <img src="Otilia.jpeg" class="card-img-top"
+            alt="Otilia, o femeie cu parul blond prins intr-un coc, tinand in mana un dosar portocaliu">
+          <div class="card-body">
+            <h5 class="card-title">Otilia</h5>
+            <p class="card-text">Otilia dorește să vă întămpine mereu cu zâmbetul pe buze. Este pregătită ca în fiecare
+              zi să dea tot ce îi stă în putință pentru o vă oferi cele mai bune deserturi, dar și să vă ajute să
+              realizați singuri rețetele celebre..</p>
+
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12 mb-4">
+          <img src="Rocky.jpeg" class="card-img-top"
+            alt="Rocky, bulldog-ul francez al Bistro-ului, cu o pereche de ochelari fara dioptrii si imbracat cu un pulover gri ">
+          <div class="card-body">
+            <h5 class="card-title">Rocky</h5>
+            <p class="card-text">Rocky este vedeta Bistro-ului. Este cel care vine și se asigură că pe ușa localului
+              nostru intră doar persoane potrivite. Este celebru mai ales printre cei mici, însă este foarte activ și pe
+              rețelele de socializare ale clienților.</p>
+
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12 mb-4">
+          <img src="casian.jpeg" class="card-img-top"
+            alt="Casia, baristul din Bistro, ce poarta ochelari de vedere si o camasa albastra cu nori si copaci ">
+          <div class="card-body">
+            <h5 class="card-title">Casian</h5>
+            <p class="card-text">Casian îmbină cafeaua și arta pentru a crea modele cât mai unice, astfel oferindu-vă o
+              băutură caldă cu o personalitate aparte și perfectă de pozat pentru Instagram. Acesta dorește să evolueze
+              în fiecare zi și orice sfat este bucuros să afle.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+      <div class="container p-5">
+        <div class="row align-centru">
+          <div class="col-6 align-center contact">
+            <h2>
+              Contact
+            </h2>
+            <ul>
+              <li>TELEFON: +40 770 599 824</li>
+              <li>ADRESA: Cluj Napoca, strada Bucuriei</li>
+              <li>PROGRAM: Luni-Sambata 09:00-20:00, Duminica închis</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div class="ratio ratio-21x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.7520946135865!2d23.59209725617735!3d46.769782750456145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c27a60f7a91%3A0xe89f7856c1be9dbd!2s24%20seven%203D!5e0!3m2!1sro!2sro!4v1671020327587!5m2!1sro!2sro"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 ">© 2022 Anele Bistro, Inc</span>
+          </div>
+
+          <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/"><svg class="bi" width="24"
+                  height="24">
+                  <use xlink:href="#youtube"></use>
+                </svg><img src="youtube.png" alt="youtube logo"> </a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/accounts/login/"><svg class="bi"
+                  width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg><img src="instagram.png" alt="instagram logo"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://ro-ro.facebook.com/"><svg class="bi" width="24"
+                  height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg><img src="facebook.png" alt="facebook logo"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
